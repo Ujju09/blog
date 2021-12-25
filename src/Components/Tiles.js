@@ -8,13 +8,9 @@ export default function Tile(props){
     return (
 
 
+<Link to = {"/"+props.name.toLowerCase()} className="bg-pink-600 rounded-xl text-white font-regular px-4 active:bg-blue-400  focus:bg-blue-500 hover:bg-pink-700 " >{props.name}</Link>
+    
 
-    
-    <button className="bg-pink-600 rounded-xl text-white px-4 active:bg-blue-400 visited:bg-indigo-400 focus:bg-blue-500 focus-visible:bg-blue-500 hover:bg-pink-700 f">
-{props.name}
-<Link to = {"/"+props.name.toLowerCase()}></Link>
-    
-    </button>
    
     
  
