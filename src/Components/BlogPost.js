@@ -15,7 +15,7 @@ export default function BlogPostLayout(props){
             {props.article}
         </article>
        
-        <div className="bg-gray-400 h-[2px] w-screen mt-4 "></div>
+        <div className="bg-gray-400 h-[1px] w-screen mt-4 "></div>
     </div>
     );
 }
