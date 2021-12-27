@@ -33,6 +33,14 @@ module.exports = {
       __key: "images",
     },
     {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `dk18fyv8kpar`,
+        // Learn about environment variables: https://gatsby.dev/env-vars
+        accessToken: "PfRod6OpFMc5JrREtuOz4h2wlI8PqMpXohmIMqIuhHM",
+      },
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "pages",

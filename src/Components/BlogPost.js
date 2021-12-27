@@ -1,7 +1,11 @@
 import * as React from "react"
 
 
+
+
+
 export default function BlogPostLayout(props){
+  
     return (
         <div className="mt-4 px-4 ">
         <h1 className="font-bold text-3xl">{props.title}</h1>
@@ -10,10 +14,12 @@ export default function BlogPostLayout(props){
             <li className="text-xs text-gray-500"><em>Tags: {props.tags}</em></li>    
         </ul>
         
+        <div>
 
         <article className="mt-2" >
             {props.article}
         </article>
+        </div>
        
         <div className="bg-gray-400 h-[1px] w-screen mt-4 "></div>
     </div>
